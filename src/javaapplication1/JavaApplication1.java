@@ -16,7 +16,9 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.print("nazdar svete.");
+        System.err.println("nazdar svete.");
+        int i = 8;
+        System.err.println("i = "+i);
     }
     
 }
